@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.warp{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.warp .img{ width: 25%;}
+
+img{
+    max-width: 100%;
+}
+@media (max-width: 1024px){
+    .warp .img {width: 33.3%;}
+}
+
+@media (max-width: 768px){
+    .warp .img {width: 50%;}
+}
+
+@media (max-width: 580px){
+    .warp .img {width: 100%;}
+}
+section h1{
+    text-align: center;
+    padding: 40px;
+    background-color: #c50404;
+    margin: 1%;
+    
+}
+
+
